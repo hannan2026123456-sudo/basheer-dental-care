@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Sparkles, Stethoscope, Smile, Activity, ShieldCheck, Award, Star, Quote } from "lucide-react";
-import { SpotlightHero } from "@/components/SpotlightHero";
+import { VideoHero } from "@/components/VideoHero";
 import { useReveal } from "@/hooks/useReveal";
 
 export const Route = createFileRoute("/")({
@@ -40,7 +40,7 @@ function Home() {
 
   return (
     <>
-      <SpotlightHero />
+      <VideoHero />
 
       {/* Services preview */}
       <section className="bg-mint py-24 px-6">
